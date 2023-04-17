@@ -3,7 +3,7 @@
 #SBATCH --job-name=geneexp
 #SBATCH --output=job_output/geneexp.%j.out
 #SBATCH --error=job_output/geneexp.%j.err
-#SBATCH --time=10:00
+#SBATCH --time=30:00
 #SBATCH --nodes=1
 ##SBATCH --mem=50M
 

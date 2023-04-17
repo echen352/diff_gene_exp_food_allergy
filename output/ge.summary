@@ -1,5 +1,5 @@
 Status	output/no_fa1_1.sam	output/no_fa2_1.sam	output/no_fa3_1.sam	output/pea_egg_fa1_1.sam	output/pea_egg_fa2_1.sam	output/pea_egg_fa3_1.sam	output/pea_fa1_1.sam	output/pea_fa2_1.sam	output/pea_fa3_1.sam
-Assigned	6801105	7010351	6612353	7074828	7066795	6502795	6730974	6884903	6984480
+Assigned	17991051	14769857	17272664	14730576	15342296	18290517	18170540	16698617	19210912
 Unassigned_Unmapped	0	0	0	0	0	0	0	0	0
 Unassigned_Read_Type	0	0	0	0	0	0	0	0	0
 Unassigned_Singleton	0	0	0	0	0	0	0	0	0
@@ -10,6 +10,6 @@ Unassigned_Duplicate	0	0	0	0	0	0	0	0	0
 Unassigned_MultiMapping	0	0	0	0	0	0	0	0	0
 Unassigned_Secondary	0	0	0	0	0	0	0	0	0
 Unassigned_NonSplit	0	0	0	0	0	0	0	0	0
-Unassigned_NoFeatures	748810	469481	639873	515164	626323	478675	627057	636763	619866
+Unassigned_NoFeatures	1978609	989319	1672528	1071629	1357527	1347716	1692809	1543652	1701040
 Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0
-Unassigned_Ambiguity	518481	512729	513919	513991	528902	493864	479801	503214	499871
+Unassigned_Ambiguity	1369239	1079240	1341381	1069370	1145833	1386722	1291168	1218662	1372212

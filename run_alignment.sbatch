@@ -3,7 +3,7 @@
 #SBATCH --job-name=align
 #SBATCH --output=job_output/align.%j.out
 #SBATCH --error=job_output/align.%j.err
-#SBATCH --time=1:00:00
+#SBATCH --time=3:00:00
 #SBATCH --nodes=1
 
 

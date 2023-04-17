@@ -1,4 +1,0 @@
-Sun Apr 16 19:21:25 PDT 2023
-featureCounts -a hg38/hg38.ensGene.gtf -o output/ge output/no_fa1_1.sam output/no_fa2_1.sam output/no_fa3_1.sam output/pea_egg_fa1_1.sam output/pea_egg_fa2_1.sam output/pea_egg_fa3_1.sam output/pea_fa1_1.sam output/pea_fa2_1.sam output/pea_fa3_1.sam
-cat output/ge | cut -f1,7- | sed 1d > output/ge.mat
-Sun Apr 16 19:24:31 PDT 2023

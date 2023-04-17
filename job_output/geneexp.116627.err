@@ -1,0 +1,104 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 9 SAM files                                      ||
+||                           o no_fa1_1.sam                                   ||
+||                           o no_fa2_1.sam                                   ||
+||                           o no_fa3_1.sam                                   ||
+||                           o pea_egg_fa1_1.sam                              ||
+||                           o pea_egg_fa2_1.sam                              ||
+||                           o pea_egg_fa3_1.sam                              ||
+||                           o pea_fa1_1.sam                                  ||
+||                           o pea_fa2_1.sam                                  ||
+||                           o pea_fa3_1.sam                                  ||
+||                                                                            ||
+||             Output file : ge                                               ||
+||                 Summary : ge.summary                                       ||
+||              Annotation : hg38.ensGene.gtf (GTF)                           ||
+||      Dir for temp files : output                                           ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file hg38.ensGene.gtf ...                                  ||
+||    Features : 1232593                                                      ||
+||    Meta-features : 64252                                                   ||
+||    Chromosomes/contigs : 270                                               ||
+||                                                                            ||
+|| Process SAM file no_fa1_1.sam...                                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 21338899                                             ||
+||    Successfully assigned alignments : 17991051 (84.3%)                     ||
+||    Running time : 1.04 minutes                                             ||
+||                                                                            ||
+|| Process SAM file no_fa2_1.sam...                                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 16838416                                             ||
+||    Successfully assigned alignments : 14769857 (87.7%)                     ||
+||    Running time : 0.83 minutes                                             ||
+||                                                                            ||
+|| Process SAM file no_fa3_1.sam...                                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 20286573                                             ||
+||    Successfully assigned alignments : 17272664 (85.1%)                     ||
+||    Running time : 0.95 minutes                                             ||
+||                                                                            ||
+|| Process SAM file pea_egg_fa1_1.sam...                                      ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 16871575                                             ||
+||    Successfully assigned alignments : 14730576 (87.3%)                     ||
+||    Running time : 0.81 minutes                                             ||
+||                                                                            ||
+|| Process SAM file pea_egg_fa2_1.sam...                                      ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 17845656                                             ||
+||    Successfully assigned alignments : 15342296 (86.0%)                     ||
+||    Running time : 0.80 minutes                                             ||
+||                                                                            ||
+|| Process SAM file pea_egg_fa3_1.sam...                                      ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 21024955                                             ||
+||    Successfully assigned alignments : 18290517 (87.0%)                     ||
+||    Running time : 0.92 minutes                                             ||
+||                                                                            ||
+|| Process SAM file pea_fa1_1.sam...                                          ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 21154517                                             ||
+||    Successfully assigned alignments : 18170540 (85.9%)                     ||
+||    Running time : 0.99 minutes                                             ||
+||                                                                            ||
+|| Process SAM file pea_fa2_1.sam...                                          ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 19460931                                             ||
+||    Successfully assigned alignments : 16698617 (85.8%)                     ||
+||    Running time : 0.87 minutes                                             ||
+||                                                                            ||
+|| Process SAM file pea_fa3_1.sam...                                          ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 22284164                                             ||
+||    Successfully assigned alignments : 19210912 (86.2%)                     ||
+||    Running time : 1.02 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "output/ge.summary"       ||
+||                                                                            ||
+\\============================================================================//
+

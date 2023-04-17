@@ -1,2 +1,0 @@
-Sun Apr 16 17:56:48 PDT 2023
-bowtie2 -x index/human -U SRRfiles/SRRfastq/pea_fa2_1.fastq.gz -S output/pea_fa2_1.sam --no-unal

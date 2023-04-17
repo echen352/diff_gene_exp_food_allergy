@@ -3,7 +3,7 @@
 #SBATCH --job-name=ttest
 #SBATCH --output=job_output/ttest.%j.out
 #SBATCH --error=job_output/ttest.%j.err
-#SBATCH --time=10:00
+#SBATCH --time=30:00
 #SBATCH --nodes=1
 
 

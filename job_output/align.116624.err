@@ -1,0 +1,12 @@
+Use of uninitialized value $bt2_args[2] in join or string at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 423.
+Use of uninitialized value $bt2_args[3] in join or string at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 423.
+Use of uninitialized value in exists at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 81.
+Use of uninitialized value in exists at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 81.
+Use of uninitialized value $bt2_args[2] in join or string at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 459.
+Use of uninitialized value $bt2_args[3] in join or string at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 459.
+22111212 reads; of these:
+  22111212 (100.00%) were unpaired; of these:
+    5239637 (23.70%) aligned 0 times
+    9752882 (44.11%) aligned exactly 1 time
+    7118693 (32.19%) aligned >1 times
+76.30% overall alignment rate

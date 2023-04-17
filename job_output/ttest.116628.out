@@ -1,0 +1,6 @@
+Mon Apr 17 00:20:06 PDT 2023
+python t_test.py --exp_matrix output/ge.mat --outpath output/diffexp
+Number of genes tested: 34794
+Number of genes with p values < 0.05: 1489
+Number of genes with corrected p values < 0.05: 5
+Mon Apr 17 00:20:49 PDT 2023
