@@ -1,0 +1,7 @@
+Use of uninitialized value $bt2_args[2] in join or string at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 423.
+Use of uninitialized value $bt2_args[3] in join or string at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 423.
+Use of uninitialized value in exists at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 81.
+Use of uninitialized value in exists at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 81.
+Use of uninitialized value $bt2_args[2] in join or string at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 459.
+Use of uninitialized value $bt2_args[3] in join or string at /exports/home/echen/anaconda3/envs/diffexp_env/bin/bowtie2 line 459.
+slurmstepd: error: *** JOB 116609 ON node002 CANCELLED AT 2023-04-16T18:56:31 DUE TO TIME LIMIT ***
